@@ -15,8 +15,10 @@ User Story #14: My product landing page should have at least one media query.
 User Story #15: My product landing page should utilize CSS flexbox at least once.
 
 Gabe Story #1: I will have three card elements with pricing details
-Gabe Story #2: I will develop this project locally and host it on GithubPages when complete
-                -actions: Create Git Repository
-                -set up connection
-                -make first push.
-Gabe Story #3: 
+            Gabe Story #2: I will develop this project locally and host it on GithubPages when complete
+                            -actions: Create Git Repository
+                            -set up connection
+                            -make first push.
+Gabe Story #3: I will create a simple wire-frame style sketch of the product page.
+Gabe Story #4: The page will be similar to an Amazon product page?
+Gabe Story #5: I will have smooth scrolling like in my portfolio page.  
