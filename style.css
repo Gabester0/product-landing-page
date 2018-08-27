@@ -3,12 +3,20 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.header {
+#header {
     height: 100vh;
-    background-image: url(patrick-lindenberg-191841-unsplash.jpg);
+    /* background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.8), rgba(0, 0, 0, 0.8)), url(./patrick-lindenberg-191841-unsplash.jpg); */
+    background-image: repeating-linear-gradient( 45deg, rgba(0,0,0,0) 0%,
+                                                        rgba(0,0,0,0) 50%,
+                                                        rgba(0,0,0,0.5) 51%,
+                                                        rgba(0,0,0,0.5) 100%), 
+                                                        url(./patrick-lindenberg-191841-unsplash.jpg);
     background-size: cover;
+    background-attachment: fixed;
+    color: #000;
 }
 
 #nav-bar { 
@@ -18,13 +26,6 @@ body {
     align-items: center;
     top: 0;
     left: 0;
-}
-
-
-
-h1 {
-    color: greenyellow;
-    font-size: 300%;
 }
 
 #nav-row {
@@ -46,4 +47,17 @@ h1 {
 
 .nav-link a:hover {
     color: #f8b500;
+}
+
+
+h1 {
+    color: #f7f7f7;
+    font-size: 300%;
+    position: relative;
+    top: 35%;
+    left: 50%;
+}
+
+#header-img {
+    opacity: .3;    
 }
