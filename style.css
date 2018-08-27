@@ -1,21 +1,30 @@
 /*https://colorhunt.co/palette/124846*/
+/*Photo by Patrick Lindenberg on Unsplash*/
 body {
     margin: 0;
     padding: 0;
 }
 
-h1 {
-    color: greenyellow;
-    font-size: 300%;
+.header {
+    height: 100vh;
+    background-image: url(patrick-lindenberg-191841-unsplash.jpg);
+    background-size: cover;
 }
 
-#nav-bar {
+#nav-bar { 
     display: flex;
     width: 100%;
     background-color: #393e46;
     align-items: center;
     top: 0;
     left: 0;
+}
+
+
+
+h1 {
+    color: greenyellow;
+    font-size: 300%;
 }
 
 #nav-row {
