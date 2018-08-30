@@ -14,7 +14,7 @@
         [x]User Story #14: My product landing page should have at least one media query.
         [x]User Story #15: My product landing page should utilize CSS flexbox at least once.
 ================================================================================================================
-[]Gabe Story #1: I will have three card elements with pricing details
+        [x]Gabe Story #1: I will have three card elements with pricing details
         [x]Gabe Story #2: I will develop this project locally and host it on GithubPages when complete
                 [x]-actions: Create Git Repository
                 [x]-set up connection
