@@ -98,7 +98,6 @@ body {
     color: #f9b700;
     background-color: white;
     padding: 25px;
-    /* border: 2px solid #393E46; */
     width: 904px;
     margin: 25px auto;
     box-shadow: 1px 1px 0px silver;
@@ -119,7 +118,7 @@ body {
 
 #productInfo {
     height: 100vh;
-    background: linear-gradient(-135deg, #f7f7f7 0%,
+    background: linear-gradient(-135deg,#f7f7f7 0%,
                                         #f7f7f7 50%,
                                         #5C636E 75%,
                                         #5C636E 100% );
@@ -216,6 +215,7 @@ body {
         height: 45%;
         font-size: 4.75vh;
     }
+
     .offsetText p {
         padding-top: 10px;
         font-size: 3vh;
@@ -229,6 +229,37 @@ body {
 
     #video {
         width: 300px;
+    }
+
+    .grid-box {
+        width: 225px;
+        margin: auto;
+        grid-template-columns: 225px;
+        grid-template-rows: 225px 225px 225px;
+    }
+
+    .row-one {
+        grid-row: 1/2;
+    }
+    
+    .row-two {
+        grid-row: 2/3;
+    }
+    
+    .row-three {
+        grid-row: 3/4;
+    }
+
+    .col-one {
+        grid-column: auto;
+    }
+
+    .col-two {
+        grid-column: auto;
+    }
+
+    .col-three {
+        grid-column: auto;
     }
 }
 
@@ -265,6 +296,38 @@ body {
         width: 250px;
         margin: auto;
     }
+
+    .grid-box {
+        width: 225px;
+        margin: auto;
+        grid-template-columns: 225px;
+        grid-template-rows: 225px 225px 225px;
+    }
+
+    .row-one {
+        grid-row: 1/2;
+    }
+    
+    .row-two {
+        grid-row: 2/3;
+    }
+    
+    .row-three {
+        grid-row: 3/4;
+    }
+
+    .col-one {
+        grid-column: auto;
+    }
+
+    .col-two {
+        grid-column: auto;
+    }
+
+    .col-three {
+        grid-column: auto;
+    }
+
 }
 
 @media (max-width: 350px){
