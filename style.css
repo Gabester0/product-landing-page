@@ -120,8 +120,8 @@ body {
     height: 110vh;
     background: linear-gradient(-135deg,#f7f7f7 0%,
                                         #f7f7f7 50%,
-                                        #5C636E 75%,
-                                        #5C636E 100% );
+                                        #5C636E 95%,
+                                        #393e46 100% );
                                     }
                                     
 .grid-box {
@@ -188,21 +188,12 @@ body {
 
 /******************************************************************************   Sign Up   **/
 
-#footer {
-    background-image: linear-gradient(45deg, rgb(247, 247, 247, 0.3) 0%,
-    rgb(247, 247, 247, 0.3) 50%,
-    rgb(92, 99, 110, 0.3) 75%,
-    rgb(92, 99, 110, 0.3) 100% ),
-    linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0,0,0, 0.5) 55%, rgba(0,0,0, 1) 100%);
-    background-size: cover;
-}
-
 
 #form {
     display: flex;
     flex-direction: column;
     width: 20vw;
-    margin: auto;
+    margin: 100px auto;
 }
 
 h3 {
@@ -213,7 +204,15 @@ h3 {
 
 label {
     text-align: left;
-    margin-top: 20px;
+    margin: 20px 0 6px 0;
+}
+
+input {
+    transition: 0.6s;
+}
+
+input:hover {
+    background-color: #f8b500;
 }
 
 #submit {
@@ -229,7 +228,7 @@ label {
 
 /******************************************************************************   Footer   **/
 
-footer {
+#footerFlexBox {
     display: flex;
     flex-direction: row;
     width: 30vw;
@@ -247,11 +246,15 @@ footer {
 .footerLinks a {
     text-decoration: none;
     transition: 0.6s;
-    color: #f7f7f7;
+    color: #393e46;
 }
 
 .footerLinks a:hover {
     color: #f8b500;
+}
+
+h4 {
+    text-align: center;
 }
 
 /******************************************************************************   Media Queries   **/
