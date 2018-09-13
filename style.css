@@ -117,7 +117,7 @@ body {
 /******************************************************************************   Product Info   **/
 
 #productInfo {
-    height: 110vh;
+    height: auto;
     background: linear-gradient(-135deg,#f7f7f7 0%,
                                         #f7f7f7 50%,
                                         #5C636E 95%,
@@ -129,16 +129,17 @@ body {
     display: grid;
     grid-template-columns: 225px 225px 225px;
     grid-column-gap: 25px;
-    grid-template-rows: 225px 225px 225px;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-row-gap: 0;
     margin: 50px auto;
-    padding-top: 75px;
+    padding: 75px 0;
 }
 
 .card {
     width: 200px;
-    margin: auto;
-    background-color: #f9b700;
+    font-size: 110%;
+    background-color: white;;
+    border: solid 10px #f9b100;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -196,8 +197,9 @@ body {
     margin: 100px auto;
 }
 
-h3 {
+h4 {
     text-align: center;
+    font-size: 120%;
     width: 15vw;
     margin: 40px auto 0 auto;
 }
@@ -241,6 +243,7 @@ input:hover {
     flex-direction: column;
     list-style: none;
     width: 10vw;
+    margin: auto;
 }
 
 .footerLinks a {
@@ -255,6 +258,9 @@ input:hover {
 
 h4 {
     text-align: center;
+    word-spacing: 3px;
+    letter-spacing: .4px;
+    padding: 25px;
 }
 
 /******************************************************************************   Media Queries   **/
